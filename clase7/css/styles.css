@@ -1,17 +1,153 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
 body {
-    font-family: R
+    margin: 0 auto;
 }
 
-.card{
+aside {
+    background-color: #1CD1B0;
+    font-size: 20px;
+    padding: 0 2%;
+}
 
+header {
+    background-color: #00669F;
+    height: auto;
+    padding-left: 2%;
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+}
+
+h1{
+    font-size: 35px;
+    color: white;
+    padding: 10px 0;
+    margin-top: 0;
+}
+h2 {
+    text-align: center;
+    margin: 100px 0 0 20px;
+}
+p {
+    text-align: justify;
+    padding: 0px 80px;
+}
+ .cards-super {
+     margin: 0 auto;
+     
+ }
+
+.card{
+    background-color: #F3F3F3;
+    border-radius: 15px 15px 0 0;
+    margin: 30px auto;
+    width: 500px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .card-header {
-
+    position: relative;
+    margin-bottom: 50px;
+}
+.fa-heart {
+    color: #cc2424;
+    font-size: 2em;
+    margin: 5% auto auto 5%;
+    position: absolute;
+    z-index: 10;
+}
+.super {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 150px 32% 50px;
 }
 
-.card-body{
+.back-card {
+    border-radius: 15px 15px 0 0;
+    height: 270px;
+}
+.back {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+.img-super-1 {
+    background: url(../img/batman.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;   
+
+}
+.img-back-card-1 {
+    background: url(../img/bg-batman.jpg);
+    background-size: cover;
+    background-position: center;  
+}
+.img-super-2 {
+    background: url(../img/wonderw.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;   
+
+}
+.img-back-card-2 {
+    background: url(../img/bg-wonderw.jpg);
+    background-size: cover;
+    background-position: center;  
+}
+.img-super-3 {
+    background: url(../img/superman.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;   
+
+}
+.img-back-card-3 {
+    background: url(../img/bg-superman.jpg);
+    background-size: cover;
+    background-position: center;  
+}
+.card-body{
+    padding: 0 0 5%;
+
+}
+.p-btn {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-ver {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+}
+footer {
+    clear: both;
+    background-color: #00669f;
+    position: relative;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+#img-github {
+    position: relative;
+    left: 66%;
+}
+
+.btn {
+	text-align: center;
+	width: 346px;
+	height: 114px;
+	background-color: #00669f;
+	font-size: 36px;
+	color: white;
+	margin-top: 522px;
+	margin-left: 355px;
 }
